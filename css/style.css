@@ -365,7 +365,8 @@ p {
   background-color: transparent;
 }
 
-.team__link-social:hover {
+.team__link-social:hover,
+.team__link-social:focus {
   background-color: var(--accent-color);
   color: #ffffff;
 }
@@ -410,7 +411,8 @@ p {
   border-radius: 4px;
 }
 
-.clients__link:hover {
+.clients__link:hover,
+.clients__link:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }

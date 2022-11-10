@@ -140,6 +140,9 @@ p {
 .contacts__link {
   display: inline-flex;
   align-items: center;
+
+  font-weight: 500;
+  line-height: calc(16 / 14);
   color: var(--text-color);
 }
 
